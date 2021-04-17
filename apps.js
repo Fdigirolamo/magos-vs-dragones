@@ -32,7 +32,7 @@ new Vue({
                 this.saludMago = 100
                 this.hayUnaPartidaEnJuego = true;
                 this.contadorAtaques = 0
-                th
+                this.turnos = []
             }
         },
         ataqueEspecial() {
